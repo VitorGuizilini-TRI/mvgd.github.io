@@ -155,7 +155,9 @@
     <div class="hero-body">
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
-        <h2 class="title is-4">Novel view and depth synthesis</h2>
+        <h2 class="title is-4"><b>Zero-Shot MVGD novel view and depth synthesis results. Top left images are conditioning views (colored cameras), and bottom images are the target view (black camera), showing
+from left-to-right: ground-truth image, predicted image, and predicted depth map. These predictions are used to produce a colored 3D
+pointcloud observed from the target viewpoint.</h2>
         </div>
         </div>
       <div class="container">
@@ -177,7 +179,9 @@
     <div class="hero-body">
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
-        <h2 class="title is-4">Accumulated Pointcloud results</h2>
+        <h2 class="title is-4"><b>Accumulated MVGD pointclouds</b>, obtained by generating novel images and depth maps from various viewpoints (black
+cameras), using the same conditioning views (colored cameras), and stacking them together without any post-processing. Our zero-shot
+architecture is capable of directly generating multi-view consistent predictions that match the scale from conditioning cameras.</h2>
         </div>
         </div>
       <div class="container">
@@ -197,7 +201,9 @@
     <div class="hero-body">
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
-        <h2 class="title is-4">Results on outdoor scenes</h2>
+        <h2 class="title is-4"><b>Accumulated MVGD pointclouds on dynamic datasets.</b> (left) Red cameras are used as conditioning views, and novel
+images and depth maps are generated from green cameras. (right) Colored pointclouds are calculated from these predictions and stacked
+together without any post-processing.</h2>
         </div>
         </div>
       <div class="container">
